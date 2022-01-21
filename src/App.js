@@ -1,15 +1,22 @@
 import './App.css';
-import './Components/BTState/Style.css'
-import BTChonkinh from './Components/BTState/BTChonkinh';
 import GameOanTuXi from './Components/GameTuXi/GameOanTuXi'
 import { Provider } from "react-redux";
 import {store} from './redux/configStore'
+import BTChonkinh from './Components/BTStateChonKinh/BTChonkinh';
+import CineTicket from './cinema/CineTicket';
 function App() {
   return (
     <div>
-      {/* <BTChonkinh/> */}
+      {/* em cmt các component lại anh chị chấm thì bật từng component giúp em với nha ^^ */}
       <Provider store={store}>
-        <GameOanTuXi />
+        
+        {/* <GameOanTuXi /> */}
+
+        {/* <BTChonkinh /> */}
+
+        <CineTicket/>
+
+
       </Provider>
     </div>
   );

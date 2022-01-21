@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'fontCine';
+    /* src: url('../asset/SEASRN__.ttf'); */
+}
+@font-face {
+    font-family: 'fontCineRegular';
+    /* src: url('../asset/ChunkFive-Regular.otf'); */
+}
+
+h2{
+    font-family: 'fontCine';
+}
+
+.seat-info, .table-header, .table-body, .seat-row,.table-foot{
+    font-family: 'fontCineRegular';
+    color: white;
+}
+
+.cinema{
+    background-image: url('../assets/bg.jpg');
+    width: 100%;
+    height:100%;
+    position: relative;
+    background-size: cover;
+    color:#fff;
+}
+
+.cine-row, .row-info{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.screen{
+    position: relative;
+    border-bottom: 50px solid #e9b422;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 100;
+    width:100%;
+    filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+    font-size: 25px;
+    color: #fff;
+}
+.screen-text{
+    position: absolute;
+    color: black;
+    left: 256px;
+    top: 6px;
+    font-family: 'fontCineRegular';
+}
+
+.empty-seat{
+    border: 3px solid #e9b422;
+    width: 35px;
+    height: 35px;
+    font-size: 11px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.selected-seat {
+    border: 3px solid #e9b422;
+    background: #1a8011;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.reserved-seat {
+    background: rgb(211, 36, 24);
+    border: 3px solid #e9b422;
+    color: #000;
+    cursor: no-drop !important;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.rowNumber{
+    width: 45px;
+    height: 35px;
+    background: none;
+    border:none;    
+}
+
+.table{
+    border: white 1px solid;
+}
+
+
+
