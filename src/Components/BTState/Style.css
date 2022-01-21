@@ -1,0 +1,38 @@
+.h1{
+    position: absolute;
+    background-color: grey;
+    color: white;
+}
+
+.posRow{
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 100px;
+}
+
+.bgRow{
+    background-color: white;
+}
+
+.imgGlass{
+    position: relative;
+    width: 50%;
+    top: -85px;
+    left: 61px;
+    opacity: 65%;
+}
+
+
+.content{
+    position: relative;
+    top: 160px;
+    line-height: 1.2rem;
+    text-align: left;
+    background-color: #ec685073;
+    color: white;
+}
+
+.content h5{
+    color: blue;
+}
